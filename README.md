@@ -33,8 +33,7 @@ is not included at present but will be added in upcoming days.</h6>
   are minimal cases reported in China outside of Wuhan. Yet there have been large numbers of air flights 
   to all major cities (e.g., Beijing, Shanghai, Hong Kong, etc.) every day during the start of this 
   outbreak in Wuhan. The Chinese are simply lying about the rest of their country. See this paper, Fig. 1, 
-  published in the Lancet: https://doi.org/10.1016/S0140-6736(20)30260-9. China currently claims for 
-  confirmed case 82052, 589, 607 for confirmed case for the entire Mainland, Beijing and 
+  published in the Lancet: https://doi.org/10.1016/S0140-6736(20)30260-9. China currently claims  82052, 589, 607 for confirmed case for the entire Mainland, Beijing and 
   Shanghai, respectively. Similary, the COVID19 deaths are 3339, 9 and 7, for the entire Mainland, 
   Beijing and Shanghai, respectively. <b>LIES, LIES, and more LIES!!!</b></li>
   <li> South Korea has been praised for its containment and mitigation. However, it is likely that
