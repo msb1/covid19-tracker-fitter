@@ -14,7 +14,8 @@ is not included at present but will be added in upcoming days.</h6>
 <ul>
 <li><i>IHME has been using worldwide COVID19 data to predict cases, deaths and hospitalization in the US. 
  These models have been used in US policy making decisions regarding the response to COVID19</i></li>
-<li><i>This worldwide COVID19 data cannot be used to predict US COVID19 cases and deaths:
+<li><i>This worldwide COVID19 data has not been sampled properly and has limited applicability to predict US COVID19 deaths, 
+ hospitalizations, and ICU beds:
  <ol>
  <li>First there needs to be understanding of probability vs non-probability sampling.</li>
  <li>A probability sample is a sample in which every unit in the population has a chance (greater than zero) 
