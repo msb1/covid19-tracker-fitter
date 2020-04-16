@@ -14,7 +14,8 @@ is not included at present but will be added in upcoming days.</h6>
 <ul>
 <li><i>IHME has been using worldwide COVID19 data to predict cases, deaths and hospitalization in the US. 
  These models have been used in US policy making decisions regarding the response to COVID19</i></li>
-<li><i>This worldwide COVID19 data cannot be used to predict US COVID19 cases and deaths:
+<li><i>This worldwide COVID19 data has not been sampled properly and has limited applicability to predict US COVID19 deaths, 
+ hospitalizations, and ICU beds:
  <ol>
  <li>First there needs to be understanding of probability vs non-probability sampling.</li>
  <li>A probability sample is a sample in which every unit in the population has a chance (greater than zero) 
@@ -32,8 +33,7 @@ is not included at present but will be added in upcoming days.</h6>
   are minimal cases reported in China outside of Wuhan. Yet there have been large numbers of air flights 
   to all major cities (e.g., Beijing, Shanghai, Hong Kong, etc.) every day during the start of this 
   outbreak in Wuhan. The Chinese are simply lying about the rest of their country. See this paper, Fig. 1, 
-  published in the Lancet: https://doi.org/10.1016/S0140-6736(20)30260-9. China currently claims for 
-  confirmed case 82052, 589, 607 for confirmed case for the entire Mainland, Beijing and 
+  published in the Lancet: https://doi.org/10.1016/S0140-6736(20)30260-9. China currently claims  82052, 589, 607 for confirmed case for the entire Mainland, Beijing and 
   Shanghai, respectively. Similary, the COVID19 deaths are 3339, 9 and 7, for the entire Mainland, 
   Beijing and Shanghai, respectively. <b>LIES, LIES, and more LIES!!!</b></li>
   <li> South Korea has been praised for its containment and mitigation. However, it is likely that
@@ -49,16 +49,17 @@ is not included at present but will be added in upcoming days.</h6>
   individual person has COVID19. First there has been no reported comparison across countries between sensitivity (test positives / all positives) 
   and the specificity (test negatives / all negative) which are statistical measures of the performance of a binary classification test. 
   Next the testing does not sample the population in any fashion as it is predominantly used for "sick" people who present for testing</li>
-  <li>Worldwide COVID19 deaths could be useful but there is no way to estimate the death rate since the number of infected people since there are 
-  many more asymptomatic and mildly ill than seriously ill with COVID19. This is indeed the case as shown from the death rates per confirmed cases
-   shown in the covid-tracker.</li>
+  <li>Worldwide COVID19 deaths could be useful but there is no way to estimate the death rate since the number of infected people is unknown with the understanding that ther there are 
+  many more asymptomatic and mildly ill COVID19 infections than seriously ill ones. This is indeed the case as shown from the death rates per confirmed cases
+in the covid-tracker.</li>
    <li>The accuracy of worldwide COVID19 deaths reported is not fully quantified. China is clearly LYING and it is likely there are many additional
-    inaccuracies.</li>
-   <li>Reported deaths from other countries are most likely not reported in the same manner as US Deaths where anyone who is infected with COVID19
+    inaccuracies such as South Korea and other Asian countries.</li>
+   <li>Reported deaths in other countries are most likely not reported in the same manner as US Deaths where anyone who is infected with COVID19
     at the time of death is recorded as a COVID19 death. Italy (and reports from Spain) have lead to conjecture that they have overstated the deaths
     from COVID19 and are changing the numbers retrospectively.</li>
     <li>Another problem with using COVID19 deaths from other countries is as follows. A patient is seriously ill in the ICU with COVID19 in the US 
     and a foreign country. Is the probability of death similar in both cases? Or is it lower in the US due to better healthcare system.</li>
+  <li>Indeed the lack of predictive capability of the IHME models support the above assertions.
  </ol>
  </li>
  </ol>
@@ -73,6 +74,7 @@ the model can be found here: http://www.healthdata.org/sites/default/files/files
  <li>The CovidFitter presented here has tested several modified sigmoidal functions (sigmoid, tanh, and Gaussian Error) on US COVID19 Death data only - 
   since it is known that the US Data is the most accurate (including state-to-state reporting).</li>
   <li>A modified sigmoid is used in CovidFitter since there is little difference with other functions tested.</li>
+  <li>In each sigmoidal function, a rate of increase coefficient, an offset (at the half level) and a max are fit to the data.
   <li>The IHME python model uses curve fitting regression models written at Univ Washington (by graduate students). Here LMFIT is used for the curve fit 
   since it is one of the 'gold standards' for curve fitting in Python. It also provides std. error for each of the parameters fit and this can be 
   converted to 95% confidence by multiplying it by +/- 1.96.</li>
