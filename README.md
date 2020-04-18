@@ -3,6 +3,12 @@
 Data is updated at 8pm EST each day. Hospitalization data has not been available each day so it 
 is not included at present but will be added in upcoming days.</h6>
 
+<h6>Note: for the past several days there have been dramatic adjustments to the deaths attributed 
+to COVID19 in several states, especially in New York. This of course significantly changes model 
+predictions. Hopefully, this is honest reporting but there are issues of concern which stem from adding 
+many deaths to the COVID19 count without knowledge of whether COVID19 was involved - e.g., no COVID19
+testing was done in numerous recently added deaths. </h6>
+
 <h4>CovidTracker.ipynb</h4>
 <ol>
 <li>Download daily Johns Hopkins COVID19 csv data with Python Pandas method into dataframe</li>
