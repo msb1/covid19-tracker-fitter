@@ -7,7 +7,8 @@ is not included at present but will be added in upcoming days.</h6>
 to COVID19 in several states, especially in New York. This of course significantly changes model 
 predictions. Hopefully, this is honest reporting but there are issues of concern which stem from adding 
 many deaths to the COVID19 count without knowledge of whether COVID19 was involved - e.g., no COVID19
-testing was done in numerous recently added deaths. </h6>
+testing was done in numerous recently added deaths. (And also it is hoped that this is not being done to
+get close to the latest model estimates and support the current USA shutdown.)</h6>
 
 <h4>CovidTracker.ipynb</h4>
 <ol>
@@ -88,3 +89,21 @@ the model can be found here: http://www.healthdata.org/sites/default/files/files
   <li>Data is plotted by cumulatively by state with 95% confidence bands and the cumulative data is summed for the entire US. The first derivative of 
   the cumulative data is also shown to estimate the US Death Rate Peaking.</li>
 </ol>
+
+<h4>YEARLY Seasonal Influenza Data</h4>
+<ol>
+<li>The yearly influenza data gives concern about our current national (and world shutdown). In 2017-2018
+season, there were approx. 45M cases of influenza with 61K deaths and 810K hospitalizations. (CDC data -see
+image below from a CDC presentation</li>
+<li>This should be compared and contrasted with current COVID19 numbers</li>
+<li>There is a seasonal vaccine available and still 45M cases of influenza</li>
+<li>The current influenza vaccine includes 4 viral strains that have been studied from a prior year and
+predicted to be a problem in the upcoming year. Quite often, the "experts" miss 1 - 2 viral strains and
+a large part of the population gets the illness. This is why many emphasize that the influenza vaccine is
+only a partial vaccine. </li>
+<li>Note that the country does not shut down or shelter-in-place during the years when the influenza
+vaccine is incomplete and incorrectly assesses which viral strains will impact the country.</li>
+
+
+</ol>
+![Influenza Seasonal Tracker](influenze-by-season.png)
