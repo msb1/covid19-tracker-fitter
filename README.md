@@ -92,17 +92,13 @@ the model can be found here: http://www.healthdata.org/sites/default/files/files
 
 <h4>YEARLY Seasonal Influenza Data</h4>
 <ol>
-<li>The yearly influenza data gives concern about our current national (and world shutdown). In 2017-2018
-season, there were approx. 45M cases of influenza with 61K deaths and 810K hospitalizations. (CDC data -see
-image below from a CDC presentation</li>
-<li>This should be compared and contrasted with current COVID19 numbers</li>
-<li>There is a seasonal vaccine available and still 45M cases of influenza</li>
+<li>For reference, the yearly influenza data is also a significant health concern. In 2017-2018
+season, with the widespread availability of a vaccine, there were approx. 45M cases of influenza with 61K deaths and 810K hospitalizations. (CDC data -see image below from a CDC presentation</li>
 <li>The current influenza vaccine includes 4 viral strains that have been studied from a prior year and
 predicted to be a problem in the upcoming year. Quite often, the "experts" miss 1 - 2 viral strains and
 a large part of the population gets the illness. This is why many emphasize that the influenza vaccine is
-only a partial vaccine. </li>
-<li>Note that the country does not shut down or shelter-in-place during the years when the influenza
-vaccine is incomplete and incorrectly assesses which viral strains will impact the country.</li>
+only a partial vaccine.</li>
+<li>This further underscores the notion that effective treatments are as important as potential vaccines especially given the propensity of viruses to undergo mutation.
 </ol>
 <br/>
 
