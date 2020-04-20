@@ -105,4 +105,5 @@ only a partial vaccine. </li>
 vaccine is incomplete and incorrectly assesses which viral strains will impact the country.</li>
 </ol>
 <br/>
-![Influenza Seasonal Tracker](influenza-by-season.png)
+
+![Influenza Seasonal Tracker from CDC](https://github.com/msb1/covid19-tracker-fitter/blob/master/influenza-by-season.png)
