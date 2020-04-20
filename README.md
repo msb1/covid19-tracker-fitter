@@ -98,7 +98,7 @@ season, with the widespread availability of a vaccine, there were approx. 45M ca
 predicted to be a problem in the upcoming year. Quite often, the "experts" miss 1 - 2 viral strains and
 a large part of the population gets the illness. This is why many emphasize that the influenza vaccine is
 only a partial vaccine.</li>
-<li>This further underscores the notion that effective treatments are as important as potential vaccines especially given the propensity of viruses to undergo mutation.
+<li>This further underscores the notion that effective treatments are as important as potential vaccines especially given the propensity of viruses to undergo mutation and the length of time it takes to prepare/test vaccines.
 </ol>
 <br/>
 
