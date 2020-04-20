@@ -103,7 +103,6 @@ a large part of the population gets the illness. This is why many emphasize that
 only a partial vaccine. </li>
 <li>Note that the country does not shut down or shelter-in-place during the years when the influenza
 vaccine is incomplete and incorrectly assesses which viral strains will impact the country.</li>
-
-
 </ol>
-![Influenza Seasonal Tracker](influenze-by-season.png)
+<br/>
+![Influenza Seasonal Tracker](influenza-by-season.png)
