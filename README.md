@@ -3,11 +3,13 @@
 Data is updated at 8pm EST each day. Hospitalization data has not been available each day so it 
 is not included at present but will be added in upcoming days.</h6>
 
-<h6>Note: for the past several days there have been dramatic adjustments to the deaths attributed 
+<h6>Note: for the past week there have been dramatic adjustments to the deaths attributed 
 to COVID19 in several states, especially in New York. This of course significantly changes model 
 predictions. Hopefully, this is honest reporting but there are issues of concern which stem from adding 
 many deaths to the COVID19 count without knowledge of whether COVID19 was involved - e.g., no COVID19
-testing was done in numerous recently added deaths. (And also it is hoped that this is not being done to
+testing was done in numerous recently added deaths. Official CDC Guidance is guidance for coding COVID-related deaths 
+is as follows: any death where the disease “caused or is *assumed* to have caused or *contributed to* death.” 
+Confirmed lab tests are not required. (And also it is hoped that this is not being done to
 get close to the latest model estimates and support the current USA shutdown.)</h6>
 
 <h4>CovidTracker.ipynb</h4>
@@ -89,6 +91,41 @@ the model can be found here: http://www.healthdata.org/sites/default/files/files
   <li>Data is plotted by cumulatively by state with 95% confidence bands and the cumulative data is summed for the entire US. The first derivative of 
   the cumulative data is also shown to estimate the US Death Rate Peaking.</li>
 </ol>
+
+<h4>SEIR-ODE-Fitter.ipynb</h4>
+<ol><li>There is a well known viral transmission model - SEIR model. Some Italian researchers published a preprint of a nice version of this
+model with extension to COVID19 in Italy. They optimize the differential equation parameters using a Particle Swarm Optimization (PSO) algorithm.</li>
+<li>This model solves the differential equations similarly but optimizes the parmaters with LMFit with a minimization problem enabled by the
+Levenburg Marquadt Algorithm (LMA).</li>
+<li>Recently published data for New York suggesting ~30% of the population has had COVID19 is in line with the model predictions.</li>
+<li>This model suggests that the high transmissibility of the COVID19 virus takes weeks rather than months for widespread outbreak. And one of the
+model parameters is an inflection date which represents when the infected reach a critical mass - e.g., 1% of population</li>
+<li>By setting this parameter to determine inflection date, the actual date of inflection in the model occurs on March 20, 2020. This date is represents
+when mitigation - shelter-in-place - was beginning to take affect. The US Federal Government issues shelter-in-place guideline on March 16, 2020 and the
+State of New York issued similar orders on March 22, 2020 at 8pm (effectively March 23).</li>
+<li>Prior to the inflection date, a different problem is being solved since there was effectively limited mitigation before this date.</li>
+</ol>
+
+<h4>SEIR-ODE-MCMC.ipynb</h4>
+<ol><li>There is a well known viral transmission model - SEIR model. Some Italian researchers published a preprint of a nice version of this
+model with extension to COVID19 in Italy. They optimize the differential equation parameters using a Particle Swarm Optimization (PSO) algorithm.</li>
+<li>This model solves the differential equations similarly but optimizes the parmaters with a Hamiltonian Monte Carlo</li>
+<li>Recently published data for New York suggesting ~30% of the population has had COVID19 is in line with the model predictions.</li>
+<li>This model suggests that the high transmissibility of the COVID19 virus takes weeks rather than months for widespread outbreak. And one of the
+model parameters is an inflection date which represents when the infected reach a critical mass - e.g., 1% of population</li>
+<li>By setting this parameter to determine inflection date, the actual date of inflection in the model occurs on March 20, 2020. This date is represents
+when mitigation - shelter-in-place - was beginning to take affect. The US Federal Government issues shelter-in-place guideline on March 16, 2020 and the
+State of New York issued similar orders on March 22, 2020 at 8pm (effectively March 23).</li>
+<li>Prior to the inflection date, a different problem is being solved since there was effectively limited mitigation before this date.</li>
+<li>Gibbs sampling is used with a flat prior since the model estimates 7 coefficients. The likelihood is determined from a normalized sum square
+residuals (SSR) and a new event is only accepted if the ratio with the prior event likelihood is greate than one.</li>
+<li>Note that New York (in particular) has been changing the way they record COVID19 deaths since about April 17, 2020. This has led to difficulties
+with all models that fit to data since there have been prior deaths added in artificially that need to be tallied on their actual dates and the "slope"
+has changed since more deaths are attributed to COVID19 - i.e., according to latest CDC guidelines (which are discussed at the top of this readme file)</li>
+<li>To account for this difficult, linear weighting has been applied to the normalized SSR residuals so that the most recent error data is weighted the
+greatest. (Exponential weighting was also tested but the results were very sensitive to the base weighting factor.)</li>
+</ol>
+
 
 <h4>YEARLY Seasonal Influenza Data</h4>
 <ol>
