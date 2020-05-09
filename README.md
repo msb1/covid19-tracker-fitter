@@ -3,7 +3,7 @@
 Data is updated at 8pm EST each day. Hospitalization data has not been available each day so it 
 is not included at present but will be added in upcoming days.</h6>
 
-<h6>Note: for the past week there have been dramatic adjustments to the deaths attributed 
+<h6>Note: there have been dramatic adjustments to the deaths attributed 
 to COVID19 in several states, especially in New York. This of course significantly changes model 
 predictions. Hopefully, this is honest reporting but there are issues of concern which stem from adding 
 many deaths to the COVID19 count without knowledge of whether COVID19 was involved - e.g., no COVID19
@@ -11,6 +11,10 @@ testing was done in numerous recently added deaths. Official CDC Guidance is gui
 is as follows: any death where the disease “caused or is *assumed* to have caused or *contributed to* death.” 
 Confirmed lab tests are not required. (And also it is hoped that this is not being done to
 get close to the latest model estimates and support the current USA shutdown.)</h6>
+
+<h6>Note: Examination of NY data in particular show addition of ~1700 nursing home deaths attributed to COVID19 a few days ago. Similarly other states
+show considerable variation in death rate reporting. It is also noted that deaths are reported on a daily basis but that each death may have occurred
+on any day up to 10 days prior.</h6>
 
 <h4>CovidTracker.ipynb</h4>
 <ol>
