@@ -27,8 +27,8 @@ on any day up to 10 days prior.</h6>
 <ul>
 <li><i>IHME has been using worldwide COVID19 data to predict cases, deaths and hospitalization in the US. 
  These models have been used in US policy making decisions regarding the response to COVID19</i></li>
-<li><i>This worldwide COVID19 data has not been sampled properly and has limited applicability to predict US COVID19 deaths, 
- hospitalizations, and ICU beds:
+<li><i>This worldwide COVID19 data was not been sampled properly and has limited applicability to predict US COVID19 deaths, 
+ hospitalizations, and ICU beds. This led to all sorts of bad advice and public policy.
  <ol>
  <li>First there needs to be understanding of probability vs non-probability sampling.</li>
  <li>A probability sample is a sample in which every unit in the population has a chance (greater than zero) 
@@ -41,11 +41,11 @@ on any day up to 10 days prior.</h6>
  it difficult to extrapolate from the sample to the population.</u></li>
  <li>All of the worldwide COVID19 data appears to be in the form of non-probability sampling
  <ol>
- <li>The data from China is a complete "FARSE". It is a lie and unrealistic. Just looking at the
+ <li>The data from China is a complete "FARSE". It is a lie and unrealistic - even in lieu of the internal travel restrictions. Just looking at the
   data curves for confirmed cases and deaths from China can lead to this conclusion. Next, there 
   are minimal cases reported in China outside of Wuhan. Yet there have been large numbers of air flights 
   to all major cities (e.g., Beijing, Shanghai, Hong Kong, etc.) every day during the start of this 
-  outbreak in Wuhan. The Chinese are simply lying about the rest of their country. See this paper, Fig. 1, 
+  outbreak in Wuhan (prior to the internal flight stoppage). The Chinese are simply lying about the rest of their country. See this paper, Fig. 1, 
   published in the Lancet: https://doi.org/10.1016/S0140-6736(20)30260-9. China currently claims  82052, 589, 607 for confirmed case for the entire Mainland, Beijing and 
   Shanghai, respectively. Similary, the COVID19 deaths are 3339, 9 and 7, for the entire Mainland, 
   Beijing and Shanghai, respectively. <b>LIES, LIES, and more LIES!!!</b></li>
@@ -57,7 +57,8 @@ on any day up to 10 days prior.</h6>
   from Wuhan to SFO, LAX and SETAC before the US Travel Ban from Wuhan were the highest from these cities. Therefore the infection rate should be or 
   should have been very high in San Francisco, Los Angeles and Seattle. However this is not the case and there is currently no good explanation for
   this phenomenon. Mitigation does not explain this since it was not practiced in the weeks leading up to the travel been and for many weeks after 
-  the travel ban.</li>
+  the travel ban. We have recently learned that the infection rate in CA is much higher than previously believed - more data will likely be available to further
+  support this.</li>
   <li>COVID19 testing worldwide cannot be used for any predictions. It can only tell whether an 
   individual person has COVID19. First there has been no reported comparison across countries between sensitivity (test positives / all positives) 
   and the specificity (test negatives / all negative) which are statistical measures of the performance of a binary classification test. 
@@ -69,7 +70,7 @@ in the covid-tracker.</li>
     inaccuracies such as South Korea and other Asian countries.</li>
    <li>Reported deaths in other countries are most likely not reported in the same manner as US Deaths where anyone who is infected with COVID19
     at the time of death is recorded as a COVID19 death. Italy (and reports from Spain) have lead to conjecture that they have overstated the deaths
-    from COVID19 and are changing the numbers retrospectively.</li>
+    from COVID19 and are changing the numbers retrospectively. Even Dr. Birx has recently mentioned that the US may be over-reporting deaths by as much as 25%.</li>
     <li>Another problem with using COVID19 deaths from other countries is as follows. A patient is seriously ill in the ICU with COVID19 in the US 
     and a foreign country. Is the probability of death similar in both cases? Or is it lower in the US due to better healthcare system.</li>
   <li>Indeed the lack of predictive capability of the IHME models support the above assertions.
