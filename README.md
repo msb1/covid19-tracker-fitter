@@ -1,20 +1,12 @@
 <h3>covid19-tracker-fitter</h3>
-<h6>Download daily Johns Hopkins COVID19 data, track and fit deaths to sigmoid like function. 
-Data is updated at 8pm EST each day. Hospitalization data has not been available each day so it 
-is not included at present but will be added in upcoming days.</h6>
+<h6>Download daily Johns Hopkins COVID19 data, track and fit deaths to sigmoid like function. Also use data from NY State to fit
+coefficients for SEIR (QP) viral transmission model using LMA and Hamiltonian (Markov Chain) Monte Carlo
+Data is updated at 8pm EST each day.</h6>
 
-<h6>Note: there have been dramatic adjustments to the deaths attributed 
-to COVID19 in several states, especially in New York. This of course significantly changes model 
-predictions. Hopefully, this is honest reporting but there are issues of concern which stem from adding 
-many deaths to the COVID19 count without knowledge of whether COVID19 was involved - e.g., no COVID19
-testing was done in numerous recently added deaths. Official CDC Guidance is guidance for coding COVID-related deaths 
-is as follows: any death where the disease “caused or is *assumed* to have caused or *contributed to* death.” 
-Confirmed lab tests are not required. (And also it is hoped that this is not being done to
-get close to the latest model estimates and support the current USA shutdown.)</h6>
-
-<h6>Note: Examination of NY data in particular show addition of ~1700 nursing home deaths attributed to COVID19 a few days ago. Similarly other states
-show considerable variation in death rate reporting. It is also noted that deaths are reported on a daily basis but that each death may have occurred
-on any day up to 10 days prior.</h6>
+<h6>Note: there have been dramatic adjustments to the deaths attributed to COVID19 in numerous states, especially in New York. 
+This of course significantly changes model predictions. Hopefully, this is honest reporting but there are issues of concern which 
+stem from adding many issues not standard in causal death reporting. Dr. Deborah Birx, CDC Coronavirus Coordinator has expressed
+concern as have many other prominent researchers, physicians and coroners.</h6>
 
 <h4>CovidTracker.ipynb</h4>
 <ol>
